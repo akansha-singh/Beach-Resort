@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Home() {
+export default function Error() {
     return (
         <div>
-            hello from home page
+            hello from error page
         </div>
     )
 }

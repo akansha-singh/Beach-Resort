@@ -1,11 +1,11 @@
 import React from 'react'
 
-export default function Home() {
+const Rooms = () => {
     return (
         <div>
-            hello from home page
+            hello from rooms page
         </div>
     )
 }
 
-
+export default Rooms
