@@ -14,7 +14,8 @@ Component {
     this.setState({isOpen:!this.state.isOpen})
   }
   render() {
-      return <nav className="navbar">
+      return (
+      <nav className="navbar">
         <div className="nav-center">
           <div className="navbar-header">
             <Link to="/">
@@ -29,6 +30,7 @@ Component {
           <li><Link to="/rooms"/>Rooms</li>
         </ul>
         </div>
-      </nav>;
+      </nav>
+      );
   }
 }
