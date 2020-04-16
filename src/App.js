@@ -9,6 +9,9 @@ import Error from "./pages/Error";
 
 import { Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
+/*import Services from "./components/Services";
+import Hero from "./components/Hero";*/
+
 function App() {
   return (
   <>
