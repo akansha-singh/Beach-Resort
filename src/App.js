@@ -1,21 +1,18 @@
 import React from 'react';
-//import logo from './logo.svg';
 import './App.css';
-
 import Home from "./pages/Home";
 import Rooms from "./pages/Rooms";
 import SingleRoom from "./pages/SingleRoom";
 import Error from "./pages/Error";
-
 import { Route, Switch } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 /*import Services from "./components/Services";
 import Hero from "./components/Hero";*/
 
 function App() {
   return (
   <>
-  <Navbar />
+  <Header />
   <Switch> 
   <Route exact path="/" component={Home} />
   <Route exact path="/rooms/" component={Rooms} />

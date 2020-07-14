@@ -9,10 +9,9 @@ import FeaturedRooms from "../components/FeaturedRooms";
 export default function Home() {
     return (
     <React.Fragment>
-    <Hero hero="defaultHero">
+    <Hero>
         <Banner title="luxurious rooms" subtitle="deluxe rooms starting at $299" >
-        <Link to='/rooms' className="btn-primary">our rooms
-        </Link>
+        <Link to='/rooms' className="btn-primary">our rooms</Link>
         </Banner>
     </Hero>
     <Services />
